@@ -24,6 +24,15 @@ $(function () { //获取处理友链数据
                 "    <br>时间：" + e.date +
                 "<br>简介：" + e.desc + "</div>" +
                 "    </div>";
+            {
+                "date": "2019.09.09",
+                    "stopTime": "2019.09.09",
+                        "src": "https://cdn.jsdelivr.net/gh/removeif/removeif.github.io/images/tuzi.jpg",
+                            "name": "@辣椒の酱",
+                                "desc": "后端开发，技术分享。",
+                                    "url": "https://removeif.github.io/",
+                                        "valid": 0
+            }
 
             $('.links-content').append(html);
         });
@@ -47,3 +56,4 @@ $(function () { //获取处理友链数据
         $('.links-content').append("</div>");
     })
 });
+
