@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小游戏</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta10/dist/css/tabler.min.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="page-wrapper">
+
+
+            <div class="page-body">
+
+                <h1 class="text-center">验证3n+1猜想</h1>
+                <div class="card navbar-light text-center col-sm-3 col-lg-6 mb-1">
+                    <div class="card-body">
+                        <div class="form-group mb-3 row">
+                            要计算的数字 n:
+                            <input type="number" class="form-control" id="number" min="1">
+                        </div>
+                        <div id="warning"></div>
+                        <button type="button" class="btn btn-primary btn-lg" id="submit">开始计算</button>
+                    </div>
+
+                </div>
+                <div class="container-xl">
+                    <div class="card card-body">
+
+                        <div id="chart-demo-line" class="chart-lg"></div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div style="position: fixed;left: 90%;bottom: 100px;"><a href="../../index.html">返回主页面</a></div>
+</body>
+
+</html>
+<script src="charts.js"></script>
+<script src="echarts.js"></script>
+<script src="https://unpkg.com/@tabler/core@1.0.0-beta10/dist/js/tabler.min.js"></script>

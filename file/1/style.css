@@ -1,0 +1,112 @@
+#header{
+    text-align:center;
+    margin: auto 0;
+    background-color: tomato;
+    padding:10px 5px 15px;
+}
+.main{
+    margin:0 auto;
+    width: 1300px;
+
+}
+#content{
+    margin:0 0 0 300px;
+    width:900px;
+    background-color: bisque;
+    border: 20px darkorange solid ;
+    padding:5px 15px;
+    height: 1725px;
+}
+.major{
+    border-bottom: 3px solid gray;
+    padding: 0px 15px;
+    margin: 10px;
+
+}
+.disc{
+    font-size: 30px;
+    padding: 0 50px;
+    text-decoration:none
+}
+.circle{
+    font-size: 30px;
+    margin: 0;
+    padding: 0 100px;
+}
+.circle a:hover{
+    background-color: #ff7f50;
+    text-decoration: none;
+}
+.ml{
+    padding:5px;
+
+    background-color: aliceblue;
+    float: left;
+    width: 270px;
+    height: 1725px;
+    border: 20px darkorange solid ;
+}
+#footer{
+    text-align: center;
+    background-color: tomato;
+    margin: auto 0;
+    padding:30px 5px 30px;
+    clear: both;
+}
+.backup{
+    text-align: right;
+    position: relative;
+    bottom: 40px;
+}
+a:link{
+    color:#037d96;
+    text-decoration: none;
+}
+a:visited{
+    color:#037d96;
+    text-decoration: none;
+}
+.backup a:hover{
+    background-color: #ff7f50;
+    text-decoration: none;
+}
+.disc a:hover{
+    background-color: #ff7f50;
+    text-decoration: none;
+}
+#html{
+    color:rgb(255, 60, 0);
+    margin: 0 0 75px;
+    padding: 0 0 0 30px;
+}
+#bootstrap{
+    color:purple;
+    margin: 0 0 75px;
+    padding: 0 0 0 30px;
+}
+#vue{
+    color:green;
+    margin: 0 0 75px;
+    padding: 0 0 0 30px;
+}
+.body{
+    margin: 0;
+}
+.char{
+    padding: 0 0 0 25px;
+    margin-bottom: 30px;
+}
+.bottom{
+    border-bottom: 20px darkorange solid;
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    right: 50px;
+}
+#special{
+
+    position: fixed;
+    left: 90%;
+    bottom: 100px;
+}

@@ -1,0 +1,119 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+.h5 {
+    display: block;
+    height: 2rem;
+    width: auto;
+}
+
+#buttonto3lian {
+    background-color: rgb(255, 255, 255, 0);
+    border: 0;
+    padding: 0;
+}
+
+#buttonto3lian:hover {
+    color: #0984e3;
+}
+
+.nav-link.dropdown.dropdown-toggle::after {
+    /*bootstrap5和tabler的dropdown-toggle冲突*/
+    border-top: 0;
+    border-right: 0;
+}
+
+.card:hover {
+    box-shadow: rgb(30 41 59) 0 3px 4px 0px;
+}
+
+h1.text-center {
+    font-size: 2rem;
+    font-size: 300%;
+}
+
+.navbar-light.text-center.col-sm-3.col-lg-6 {
+    margin: auto;
+}
+
+#number {
+    width: 50%;
+}
+
+.form-group.mb-3.row {
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#submit {
+    width: 110px;
+}
+
+.card.card-body {
+    margin: auto;
+    height: 850px;
+}
+
+#warning {
+    color: red;
+}
+
+#like.light {
+    color: #0984e3;
+}
+
+#coin.light {
+    color: #0984e3;
+}
+
+#favorites.light {
+    color: #0984e3;
+}
+
+#buttonto3lian.light {
+    color: #0984e3;
+}
+
+.icon3:hover {
+    cursor: pointer;
+    color: #00b894;
+}
+
+#like.shake {
+    animation: shake 0.3s linear infinite;
+}
+
+#coin.shake {
+    animation: shake 0.3s linear infinite;
+}
+
+#favorites.shake {
+    animation: shake 0.3s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(-5%, -5%)
+    }
+
+    25% {
+        transform: translate(5%, 5%)
+    }
+
+    50% {
+        transform: translate(-5%, 5%)
+    }
+
+    75% {
+        transform: translate(5%, -5%)
+    }
+
+    100% {
+        transform: translate(0%, 0%)
+    }
+}
