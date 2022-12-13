@@ -7,7 +7,7 @@ longtime = 0;
 unreach = 1;
 window.onload = function () {
     showcard = "";
-    axios.get("http://127.0.0.1:5500/index.json",)
+    axios.get("index.json",)
         .then(function (resp) {
             console.log(resp);
             console.log(resp.data.first);
